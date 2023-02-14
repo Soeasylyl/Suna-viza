@@ -441,7 +441,7 @@ body {
 
 .right-content__title {
     position: relative;
-    padding-top: 35px;
+    padding-top: 40px;
 }
 
 .finnish-sauna {
@@ -456,8 +456,14 @@ body {
 .finnish-sauna .hero__text {
     color: #000000;
 }
+
 .finnish-sauna .right-content__text-list {
     display: flex;
+    align-items: center;
+}
+
+.finnish-sauna .right-content__text {
+    padding-top: 60px;
 }
 
 .finnish-sauna .container {
@@ -473,3 +479,15 @@ body {
 .finnish-sauna .left-image {
 
 }
+
+.finnish-sauna .right-content__text-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.finnish-sauna .right-content__text-description {
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
