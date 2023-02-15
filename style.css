@@ -23,7 +23,7 @@ body {
     width: 100%;
 }
 
-.header .container  {
+.header .container {
     padding-top: 0;
 }
 
@@ -41,6 +41,7 @@ body {
     font-weight: bold;
     margin-left: 15px;
 }
+
 .header__svg-telegram {
     margin-left: 15px;
 }
@@ -69,7 +70,7 @@ body {
     display: flex;
 }
 
-.header__btn button{
+.header__btn button {
     margin-top: 0;
     margin-left: 32px;
 }
@@ -404,7 +405,7 @@ body {
 }
 
 .actions-content__image {
-    height:210px;
+    height: 210px;
 }
 
 .actions-content__image img {
@@ -453,6 +454,7 @@ body {
     background-size: cover;
     background-position: center;
 }
+
 .finnish-sauna .hero__text {
     color: #000000;
 }
@@ -476,10 +478,6 @@ body {
     padding-left: 30px;
 }
 
-.finnish-sauna .left-image {
-
-}
-
 .finnish-sauna .right-content__text-title {
     font-size: 24px;
     font-weight: bold;
@@ -489,5 +487,355 @@ body {
 .finnish-sauna .right-content__text-description {
     font-size: 15px;
     padding-bottom: 30px;
+    line-height: 30px;
 }
 
+.finnish-sauna .right-content__text-note {
+    padding-top: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    padding-bottom: 30px;
+    font-style: italic;
+}
+
+.finnish-sauna button {
+    margin-top: 0;
+}
+
+.bath-set__column-content {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.bath-set__columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 30px;
+    padding-top: 100px;
+}
+
+.bath-set__content {
+    padding-bottom: 165px;
+}
+
+.bath-set__column-image {
+    width: 100%;
+}
+
+.bath-set__column-image img {
+    width: 345px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.bath-set .title__color {
+    padding-top: 40px;
+
+}
+
+.kitchen {
+    background-image: url("IMG_1844 1.png");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.kitchen .title__color {
+    color: white;
+}
+
+.kitchen .title__shadow {
+    color: rgb(255 255 255 / 33%);
+}
+
+.kitchen .kitchen__title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.kitchen .kitchen__text {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.kitchen .kitchen__icons {
+    display: flex;
+    justify-content: center;
+}
+
+.kitchen .kitchen__icon {
+    padding: 15px;
+}
+
+.kitchen__list-background {
+    padding: 20px 30px;
+    background-color: rgba(0, 0, 0, 0.73);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.kitchen .hero__text {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.kitchen .kitchen__list-1 {
+    position: absolute;
+    top: 60%;
+}
+
+.kitchen .kitchen__list-2 {
+    position: absolute;
+    left: 20%;
+    top: 70%;
+}
+
+.kitchen .kitchen__list-3 {
+    position: absolute;
+    left: 45%;
+    top: 75%;
+}
+
+.kitchen .kitchen__list-4 {
+    position: absolute;
+    left: 65%;
+    top: 79%;
+}
+
+.kitchen .kitchen__list-5 {
+    position: absolute;
+    right: 8%;
+    top: 72%;
+}
+
+.room .container {
+    padding-top: 120px;
+}
+
+.room .room__right-content_list {
+    display: flex;
+    align-items: center;
+}
+
+.room .room__right-content_list .hero__text {
+    color: black;
+}
+
+.room .room__right-content_list .hero__icon {
+    padding: 10px 15px 10px 0;
+}
+
+.room .title__shadow {
+    top: 40px;
+}
+
+.room .container {
+    padding-bottom: 120px;
+}
+
+.room .room__right-content_title {
+    padding-bottom: 60px;
+}
+
+.room .room__column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 30px;
+}
+
+.room .room_left-image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1
+}
+
+/*SWIPER*/
+/*.swiper {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+
+/*.swiper-slide {*/
+/*    text-align: center;*/
+/*    font-size: 18px;*/
+/*    background: #fff;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+
+/*}*/
+
+/*.swiper-slide img {*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*.swiper {*/
+/*    width: 100%;*/
+/*    height: 300px;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+
+/*}*/
+
+/*.swiper-slide {*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*}*/
+
+/*.mySwiper2 {*/
+/*    height: 80%;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.mySwiper {*/
+/*    height: 20%;*/
+/*    box-sizing: border-box;*/
+/*    padding: 10px 0;*/
+/*}*/
+
+/*.mySwiper .swiper-slide {*/
+/*    width: 25%;*/
+/*    height: 100%;*/
+/*    opacity: 0.4;*/
+/*}*/
+
+/*.mySwiper .swiper-slide-thumb-active {*/
+/*    opacity: 1;*/
+/*}*/
+
+/*.swiper-slide img {*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover;*/
+/*}*/
+
+
+.fiesta__title {
+    color: black;
+    position: relative;
+}
+
+.fiesta .title__shadow {
+    top: -80px;
+}
+
+.fiesta .fiesta__columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px 25px;
+    padding-top: 100px;
+    padding-bottom: 170px;
+}
+
+.fiesta .fiesta__column img {
+    width: 345px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.fiesta .fiesta__column-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.fiesta .fiesta__column p {
+    text-align: center;
+    line-height: 30px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.questions .title__shadow {
+    top: -90px;
+}
+
+.questions__lists {
+    padding-bottom: 200px;
+}
+
+.contacts {
+    background-image: url("BG2 231.png");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.contacts .contacts__title {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.contacts .contacts__title .title__shadow {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.contacts .contacts__title .title__color {
+    color: white;
+}
+
+.contacts .contacts__list {
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.contacts .hero__icon {
+    padding-right: 25px;
+}
+
+.contacts__columns{
+    display: flex;
+}
+
+.contacts__left {
+    width: 30%;
+}
+.contacts__right {
+    padding-left: 100px;
+    width: 70%;
+}
+
+.contacts .contacts__number {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.contacts .contacts__address {
+    padding-bottom: 40px;
+}
+
+.contacts button {
+    margin: 0;
+}
+
+.contacts iframe{
+    width: 100%;
+    height: 450px;
+}
+
+.contacts .contacts__left {
+    color: white;
+}
