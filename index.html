@@ -9,7 +9,6 @@
 </head>
 
 
-
 <body>
 <header>
     <div class="header">
@@ -74,7 +73,7 @@
                         <div class="header-telephone__number">8(843)-259-00-99</div>
                     </div>
                     <div class="header__btn">
-                        <button  class="js-open-modal" data-modal="1">Заказать звонок</button>
+                        <button class="js-open-modal" data-modal="1">Заказать звонок</button>
                     </div>
                 </div>
             </div>
@@ -172,7 +171,7 @@
                     </div>
                 </li>
             </ul>
-            <button class="hero__btn">
+            <button class="js-open-modal" data-modal="2">
                 Забронировать
             </button>
         </div>
@@ -966,6 +965,7 @@
                     <button>Забронировать</button>
                 </div>
             </div>
+        </div>
     </section>
     <section class="bath-set" style="background-color: #F1F1F1">
         <div class="container">
@@ -1580,6 +1580,7 @@
             <div class="questions__lists">
 
             </div>
+        </div>
     </section>
     <section class="contacts">
         <div class="container">
@@ -1691,7 +1692,6 @@
                 </div>
             </div>
         </div>
-        <!--        <p class="modal__title">Заголовок окна 1</p>-->
     </div>
 
     <div class="modal" data-modal="2">
@@ -1699,7 +1699,24 @@
         <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/>
         </svg>
-        <p class="modal__title">Заголовок окна 2</p>
+        <div class="modal-background_2">
+            <div class="modal-items">
+                <div class="modal-item">
+                    <div class="modal-title">
+                        Забронировать номер
+                    </div>
+                    <div class="modal-text">
+                        Оставьте заявку и наш администратор свяжется<br>
+                        с вами и ответит на все волнующие вопросы
+                    </div>
+                </div>
+                <div class="modal-item">
+                    <input class="name" placeholder="Ваше имя">
+                    <input class="telephone" placeholder="Ваш номер телефона">
+                    <button>Отправить</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Подложка под модальным окном -->

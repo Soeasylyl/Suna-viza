@@ -934,6 +934,17 @@ a {
     align-items: center;
     justify-content: center;
 }
+.modal-background_2 {
+    background-image: url("IMG_8458 1.png");
+    background-repeat: no-repeat;
+    height: 560px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .modal-items {
     width: 422px;
