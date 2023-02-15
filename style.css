@@ -861,23 +861,18 @@ body {
 /* Стили для модальных окон */
 
 .modal {
-
     /* Скрываем окна  */
     opacity: 0;
     visibility: hidden;
-
-
     /*  Установаем ширину окна  */
     width: 100%;
     max-width: 500px;
-
     /*  Центрируем и задаем z-index */
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 30; /* Должен быть выше чем у подложки*/
-
     /*  Побочные стили   */
     box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
     text-align: center;
@@ -885,8 +880,7 @@ body {
     border-radius: 3px;
     background-color: #fff;
     transition: 0.3s all;
-    border: 2px solid #FF7600;
-
+    /*border: 2px solid #FF7600;*/
 }
 
 
@@ -897,7 +891,6 @@ body {
     opacity: 1;
     visibility: visible;
 }
-
 
 /* Стили для кнопки закрытия */
 
@@ -914,15 +907,15 @@ body {
 
 /* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять */
 
-a {
-    padding: 20px;
-    display: inline-block;
-    text-decoration: none;
-    background-color: #414b52;
-    margin: 10px;
-    color: #fff;
-    border-radius: 3px;
-}
+/*a {*/
+/*    padding: 20px;*/
+/*    display: inline-block;*/
+/*    text-decoration: none;*/
+/*    background-color: #414b52;*/
+/*    margin: 10px;*/
+/*    color: #fff;*/
+/*    border-radius: 3px;*/
+/*}*/
 
 .modal-background {
     background-image: url("bg 1.png");
@@ -933,7 +926,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px solid #FF7600;
 }
+
 .modal-background_2 {
     background-image: url("IMG_8458 1.png");
     background-repeat: no-repeat;
@@ -943,6 +938,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 
