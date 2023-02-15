@@ -839,3 +839,139 @@ body {
 .contacts .contacts__left {
     color: white;
 }
+
+/* Стили для подложки */
+
+.overlay {
+
+    /* Скрываем подложку  */
+    opacity: 0;
+    visibility: hidden;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 20;
+    transition: .3s all;
+}
+
+/* Стили для модальных окон */
+
+.modal {
+
+    /* Скрываем окна  */
+    opacity: 0;
+    visibility: hidden;
+
+
+    /*  Установаем ширину окна  */
+    width: 100%;
+    max-width: 500px;
+
+    /*  Центрируем и задаем z-index */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30; /* Должен быть выше чем у подложки*/
+
+    /*  Побочные стили   */
+    box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
+    text-align: center;
+    /*padding: 30px;*/
+    border-radius: 3px;
+    background-color: #fff;
+    transition: 0.3s all;
+    border: 2px solid #FF7600;
+
+}
+
+
+/* Стили для активных классов подложки и окна */
+
+.modal.active,
+.overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Стили для кнопки закрытия */
+
+.modal__cross {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    fill: #FF7600;
+    cursor: pointer;
+}
+
+
+/* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять */
+
+a {
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #414b52;
+    margin: 10px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.modal-background {
+    background-image: url("bg 1.png");
+    background-repeat: no-repeat;
+    height: 560px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-items {
+    width: 422px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.modal-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal .modal-title {
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.modal .modal-text{
+    font-size: 16px;
+    color: white;
+    line-height: 25px;
+}
+
+.modal input {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.modal input::placeholder {
+    color:black;
+}
+
+.modal button {
+    margin: 0;
+}
